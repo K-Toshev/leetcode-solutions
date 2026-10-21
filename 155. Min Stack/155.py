@@ -1,4 +1,7 @@
 class MinStack(object):
+    
+    # How long did this take me to solve? : 16 minutes and 12 seconds :)
+    
     # We will construct MinStack via two separate stacks:
     # - items: This will store the actual items on the stack
     # - min_indices: This will store the indices of specific elements of items. An index will be in min_indices only if
