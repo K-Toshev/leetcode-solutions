@@ -10,7 +10,6 @@ class Solution(object):
         '''
         # -----------------------------------------------------------------------------------------------------
 
-
         # The approach here is as follows:
         #   We iterate through the parentheses, pushing open ones to a stack.
         #   If we find a closed one, we check whether or not it is in a valid position, and if it is, we pop the top of the stack off.
